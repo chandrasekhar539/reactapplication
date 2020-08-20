@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Weather extends Component {
+class Home extends Component {
   state = {
     loading: true,
     person: null,
@@ -34,4 +34,4 @@ class Weather extends Component {
   }
 }
 
-export default Weather;
+export default Home;

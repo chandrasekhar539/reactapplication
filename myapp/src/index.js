@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-import Weather from "./components/Weather";
+import Home from "./components/Home";
+import Main from "./components/Main";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <Main />
   </React.StrictMode>,
   document.getElementById("root")
 );
