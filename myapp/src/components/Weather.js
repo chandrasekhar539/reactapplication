@@ -18,7 +18,7 @@ class Weather extends Component {
         {this.state.loading ? (
           <div>loading...</div>
         ) : (
-          <div>
+          <div className="col-sm-12 offset-md-4">
             <div className="title col-sm-12">
               {this.state.person.name.title}
             </div>
